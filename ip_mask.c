@@ -50,8 +50,8 @@ void address_reseau_broadcast(char* ip, char* mask)
 		{
 				broadcast_bytes[i] = 255;
 		}
-       else
-       {
+		else
+		{
 			  broadcast_bytes[i] = reseau_bytes[i];
 		 }
        
