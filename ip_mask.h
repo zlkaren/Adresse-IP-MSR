@@ -1,4 +1,4 @@
-#include "ip_mask2.c"
+#include "ip_mask.c"
 
 void get_data_mask();
 char *mask(char * mask,char * chaine);
