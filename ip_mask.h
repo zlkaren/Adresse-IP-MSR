@@ -1,8 +1,7 @@
-#include "ip_mask.c"
+#include "ip_mask2.c"
 
-char *verify_ip(char * ip);
 void get_data_mask();
-char *get_mask(char * a ,int f);
-void address_reseau_broadcast(char* ip, char* mask);
-void broadcast_address(char* ip, char* mask);
-void nombre_machine(char * ip);
+char *mask(char * mask,char * chaine);
+char* calcul_binaire(char * ip_binaire, char * mask_binaire,char * reseau);
+char* binaire(char* a, int f);
+char* verify_ip(char * ip);
