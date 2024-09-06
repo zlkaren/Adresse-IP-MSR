@@ -1,4 +1,4 @@
-#include "ip_mask1.h"
+#include "ip_mask.h"
 
 int main()
 {
